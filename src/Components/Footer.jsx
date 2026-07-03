@@ -7,7 +7,7 @@ import { CiTwitter } from "react-icons/ci";
 
 function Footer(){
     return<>
-     <footer className="bg-black w-[100%] h-[120px] text-white mt-10 pl-40">
+     <footer className="bg-black w-[100%] h-[170px] text-white mt-10 pl-40 border-t-2 border-orange-500">
          
           <div  className="flex gap-30"> 
     <div>
@@ -22,19 +22,21 @@ function Footer(){
 
     </div>
 <div>
-    <h1>Quick links</h1>
+    <h1 className="text-4xl">Quick links</h1>
     <p>home</p>
     <p>menu</p>
+    <p>about</p>
+    <p>contact</p>
     <p>cart</p>
 </div>
 <div>
-    <h1>our services</h1>
+    <h1 className="text-4xl">our services</h1>
     <p>fast delivery</p>
     <p>online order</p>
     <p>take away</p>
 </div>
 <div>
-    <h1>contact us</h1>
+    <h1 className="text-4xl">contact us</h1>
     <p>mogdisho</p>
     <p>252 61 233434</p>
     <p>info@foodie.com</p>

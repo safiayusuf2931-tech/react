@@ -5,8 +5,8 @@ function Section2(){
     return<>
     <div className="w-[100%] h-[400px] bg-black text-white mt-10 flex">
       <div className="left">
-           <img className="w-[300px] h-[250px] pt-10 pl-10"  src="https://i.pinimg.com/736x/90/58/d7/9058d7c57a5d1008a46add450458d96e.jpg" alt="" />
-           <img className="w-[200px] h-[150px] pt-10 pl-10"  src="https://i.pinimg.com/736x/8a/a5/2c/8aa52cef4511196bdc20f259a4b08088.jpg" alt="" />
+           <img className="w-[400px] h-[300px] pt-10 pl-10 border-t-2 border-"  src="https://i.pinimg.com/736x/90/58/d7/9058d7c57a5d1008a46add450458d96e.jpg" alt="" />
+           
       </div>
       <div className="right">
         <h1 className="text-5xl text-orange-400 pl-30">About Us</h1>

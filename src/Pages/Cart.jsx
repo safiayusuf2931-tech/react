@@ -5,11 +5,11 @@ function Cart({Data}){
 
     return<>
        <div>
-        <div className="flex flex-wrap gap-4 mt-10 ml-20">
+        <div className="flex flex-wrap gap-6 mt-20 ml-20">
             {CartItem.map((item) =>{
                 return(
                     <div>
-                        <img  className="w-[300px] h-[200px] rounded-[20px]" src={item.image} alt="" />
+                        <img  className="w-[300px] h-[200px] rounded-[20px] border-t-3 border-black" src={item.image} alt="" />
                         <h1>{item.name}</h1>
                         <h1>{item.id}</h1>
                         <h1>{item.price}</h1>
