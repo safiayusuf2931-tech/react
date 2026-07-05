@@ -11,10 +11,17 @@ function Header(){
         <h1 className="text-white" >Restaurant</h1>
          <ul className="flex gap-10 pl-100">
              <li className="text-orange-500"><Link to="/"> Home</Link> </li>
-             <li><Link to="/About">About</Link> </li>  
+             <li><Link to="/about">About</Link> </li>  
              <li><Link to="/menu">Menu</Link> </li> 
              <li><Link to="/Contact">Contact</Link> </li> 
+             <li>
+  <Link to="/orders">Orders</Link>
+</li>
+{/* <li>
+  <Link to="/delivery">Delivery</Link>
+</li> */}
              <li><Link to="/cart">Cart
+             
 
              <span>{CartItem.length}</span>
              </Link> </li>
