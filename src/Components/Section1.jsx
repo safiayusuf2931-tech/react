@@ -5,7 +5,7 @@
 function Section1(){
     return<>
     <div>
-        <h1 className="text-3xl ml-120 mt-5">Popular <span className="text-orange-500">Foods</span></h1>
+        <h1 className="text-4xl font-bold text-center mb-10">Popular <span className="text-orange-500">Foods</span></h1>
         <p></p>
         <div className="flex gap-20 mt-5"> 
             <div >

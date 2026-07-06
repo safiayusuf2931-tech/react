@@ -9,7 +9,7 @@ function Section2(){
            
       </div>
       <div className="right">
-        <h1 className="text-5xl text-orange-400 pl-30">About Us</h1>
+        <h1 className="text-4xl font-bold text-center mb-10">About Us</h1>
         <p className="text-3xl pl-30 pt-2">We Serve Quality Food  <br />With Great Taste</p>
         <p className="text-2xl pl-30 pt-2">Our gool is to provide the food with fresh <br />
         ingredients and excellent customer service. <br />
